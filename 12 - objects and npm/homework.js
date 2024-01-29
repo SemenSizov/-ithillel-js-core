@@ -82,10 +82,9 @@ console.log(person);
 */
 let users = [
     { name: "Anya", email: "ann@gmail.com", age: 12 },
-    { name: "Alina", email: "alina@gmail.com", age: 23 },
+    { name: "Alin", email: "alin@gmail.com", age: 23 },
     { name: "Petro", email: "petro@gmail.com", age: 22 }
 ];
-
 for (let user of users) {
     let { name, email, age } = user;
     console.log( name, email, age);
